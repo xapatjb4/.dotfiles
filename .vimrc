@@ -87,3 +87,6 @@ nnoremap <leader>ps :Rg<CR>
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR> 
 
+"Git related"
+
+nnoremap <leader>Gd :Gdiff :0 <CR>
