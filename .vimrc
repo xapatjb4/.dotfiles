@@ -22,6 +22,7 @@ set shortmess+=c
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
+"For plugins, remember to download vim-plug and node"
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
@@ -50,7 +51,7 @@ let g:netrw_banner=0
 let g:netrw_winsize=25
 "let g:netrw_liststyle=3
 
-let g:coc_global_extensions = ['coc-git','coc-json','coc-pyright', 'coc-clangd', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-git','coc-json','coc-pyright', 'coc-clangd', 'coc-tsserver', 'coc-java']
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
